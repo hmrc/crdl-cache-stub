@@ -14,12 +14,23 @@
  * limitations under the License.
  */
 
-package uk.gov.hmrc.crdlcachestub.config
+package uk.gov.hmrc.crdlcachestub.models
 
-import javax.inject.{Inject, Singleton}
-import play.api.Configuration
+import play.api.libs.json.Format
+import play.api.mvc.PathBindable
 
-@Singleton
-class AppConfig @Inject()(config: Configuration):
+case class CodeListCode(val code: String)
 
-  val appName: String = config.get[String]("appName")
+object CodeListCode {
+  val BC08 = CodeListCode("BC08")
+  val BC36 = CodeListCode("BC36")
+  val BC66 = CodeListCode("BC66")
+
+  given Format[CodeListCode] = Format.of[String].bimap(CodeListCode.apply, _.code)
+
+  given PathBindable[CodeListCode] = new PathBindable.Parsing[CodeListCode](
+    CodeListCode.apply,
+    _.code,
+    (code, e) => s"Cannot parse parameter $code as CodeListCode: ${e.getMessage}"
+  )
+}

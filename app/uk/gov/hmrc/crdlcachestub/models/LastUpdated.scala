@@ -14,12 +14,14 @@
  * limitations under the License.
  */
 
-package uk.gov.hmrc.crdlcachestub.config
+package uk.gov.hmrc.crdlcachestub.models
 
-import javax.inject.{Inject, Singleton}
-import play.api.Configuration
+import play.api.libs.json.{Format, Json, Writes}
 
-@Singleton
-class AppConfig @Inject()(config: Configuration):
+import java.time.Instant
 
-  val appName: String = config.get[String]("appName")
+case class LastUpdated(codeListCode: CodeListCode, snapshotVersion: Long, lastUpdated: Instant)
+
+object LastUpdated {
+  given Format[LastUpdated] = Json.format[LastUpdated]
+}

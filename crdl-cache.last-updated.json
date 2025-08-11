@@ -1,0 +1,217 @@
+[{
+  "codeListCode": "BC03",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:28:44.884Z"
+  },
+  "snapshotVersion": 9
+},
+{
+  "codeListCode": "BC26",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:28:44.861Z"
+  },
+  "snapshotVersion": 9
+},
+{
+  "codeListCode": "BC09",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:28:44.963Z"
+  },
+  "snapshotVersion": 9
+},
+{
+  "codeListCode": "BC01",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:28:44.902Z"
+  },
+  "snapshotVersion": 9
+},
+{
+  "codeListCode": "BC22",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:28:44.878Z"
+  },
+  "snapshotVersion": 6
+},
+{
+  "codeListCode": "BC15",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:28:45.096Z"
+  },
+  "snapshotVersion": 9
+},
+{
+  "codeListCode": "BC11",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:28:45.463Z"
+  },
+  "snapshotVersion": 9
+},
+{
+  "codeListCode": "BC41",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:28:47.233Z"
+  },
+  "snapshotVersion": 9
+},
+{
+  "codeListCode": "BC34",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:28:47.288Z"
+  },
+  "snapshotVersion": 6
+},
+{
+  "codeListCode": "BC35",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:28:47.429Z"
+  },
+  "snapshotVersion": 9
+},
+{
+  "codeListCode": "BC12",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:29:03.227Z"
+  },
+  "snapshotVersion": 35
+},
+{
+  "codeListCode": "BC08",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:29:02.415Z"
+  },
+  "snapshotVersion": 22
+},
+{
+  "codeListCode": "BC36",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:28:48.240Z"
+  },
+  "snapshotVersion": 9
+},
+{
+  "codeListCode": "BC40",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:28:47.992Z"
+  },
+  "snapshotVersion": 9
+},
+{
+  "codeListCode": "BC43",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:28:48.337Z"
+  },
+  "snapshotVersion": 6
+},
+{
+  "codeListCode": "BC51",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:28:51.133Z"
+  },
+  "snapshotVersion": 9
+},
+{
+  "codeListCode": "BC46",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:28:51.404Z"
+  },
+  "snapshotVersion": 9
+},
+{
+  "codeListCode": "BC66",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:28:51.418Z"
+  },
+  "snapshotVersion": 9
+},
+{
+  "codeListCode": "BC52",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:28:51.727Z"
+  },
+  "snapshotVersion": 9
+},
+{
+  "codeListCode": "BC58",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:28:51.795Z"
+  },
+  "snapshotVersion": 9
+},
+{
+  "codeListCode": "BC17",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:28:55.011Z"
+  },
+  "snapshotVersion": 7
+},
+{
+  "codeListCode": "BC67",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:28:53.251Z"
+  },
+  "snapshotVersion": 9
+},
+{
+  "codeListCode": "E200",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:28:55.478Z"
+  },
+  "snapshotVersion": 2
+},
+{
+  "codeListCode": "BC108",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:28:55.090Z"
+  },
+  "snapshotVersion": 9
+},
+{
+  "codeListCode": "BC109",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:28:55.281Z"
+  },
+  "snapshotVersion": 9
+},
+{
+  "codeListCode": "BC107",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:28:55.455Z"
+  },
+  "snapshotVersion": 9
+},
+{
+  "codeListCode": "BC57",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:28:55.559Z"
+  },
+  "snapshotVersion": 6
+},
+{
+  "codeListCode": "CL239",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:28:56.229Z"
+  },
+  "snapshotVersion": 2
+},
+{
+  "codeListCode": "BC106",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:28:56.804Z"
+  },
+  "snapshotVersion": 9
+},
+{
+  "codeListCode": "BC37",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:28:58.726Z"
+  },
+  "snapshotVersion": 7
+},
+{
+  "codeListCode": "CL380",
+  "lastUpdated": {
+    "$date": "2025-08-11T12:28:57.998Z"
+  },
+  "snapshotVersion": 5
+}]

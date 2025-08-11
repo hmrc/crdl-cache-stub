@@ -16,10 +16,14 @@
 
 package uk.gov.hmrc.crdlcachestub.config
 
-import javax.inject.{Inject, Singleton}
-import play.api.Configuration
+import uk.gov.hmrc.crdlcachestub.repositories.migration.ImportCodeListsMigration
+import uk.gov.hmrc.crdlcachestub.repositories.migration.ImportCustomsOfficesMigration
+import com.google.inject.AbstractModule
 
-@Singleton
-class AppConfig @Inject()(config: Configuration):
-
-  val appName: String = config.get[String]("appName")
+class Module extends AbstractModule {
+  override def configure(): Unit = {
+    bind(classOf[AppConfig]).asEagerSingleton()
+    bind(classOf[ImportCodeListsMigration]).asEagerSingleton()
+    bind(classOf[ImportCustomsOfficesMigration]).asEagerSingleton()
+  }
+}

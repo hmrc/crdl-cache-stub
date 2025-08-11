@@ -14,12 +14,14 @@
  * limitations under the License.
  */
 
-package uk.gov.hmrc.crdlcachestub.config
+package uk.gov.hmrc.crdlcachestub.repositories.migration
 
-import javax.inject.{Inject, Singleton}
-import play.api.Configuration
+import uk.gov.hmrc.crdlcachestub.repositories.CustomsOfficeListsRepository
+
+import javax.inject.Singleton
+import javax.inject.Inject
 
 @Singleton
-class AppConfig @Inject()(config: Configuration):
-
-  val appName: String = config.get[String]("appName")
+class ImportCustomsOfficesMigration @Inject() (repository: CustomsOfficeListsRepository) {
+    
+}

@@ -14,12 +14,11 @@
  * limitations under the License.
  */
 
-package uk.gov.hmrc.crdlcachestub.config
+package uk.gov.hmrc.crdlcachestub.models
 
-import javax.inject.{Inject, Singleton}
-import play.api.Configuration
+import play.api.libs.json.{Format, Json}
+case class RoleTrafficCompetence(roleName: String, trafficType: String)
 
-@Singleton
-class AppConfig @Inject()(config: Configuration):
-
-  val appName: String = config.get[String]("appName")
+object RoleTrafficCompetence {
+  given format: Format[RoleTrafficCompetence] = Json.format[RoleTrafficCompetence]
+}

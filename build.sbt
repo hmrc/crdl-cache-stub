@@ -12,6 +12,12 @@ lazy val microservice = Project("crdl-cache-stub", file("."))
     // https://www.scala-lang.org/2021/01/12/configuring-and-suppressing-warnings.html
     // suppress warnings in generated routes files
     scalacOptions += "-Wconf:src=routes/.*:s",
+    routesImport ++= Seq(
+      "play.api.libs.json.JsValue",
+      "uk.gov.hmrc.crdlcachestub.models.*",
+      "uk.gov.hmrc.crdlcachestub.models.Binders.bindableJsValueMap",
+      "uk.gov.hmrc.crdlcachestub.models.Binders.bindableSet"
+    )
   )
   .settings(CodeCoverageSettings.settings: _*)
 

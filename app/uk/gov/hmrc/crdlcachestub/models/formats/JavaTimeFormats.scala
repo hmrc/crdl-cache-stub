@@ -14,12 +14,19 @@
  * limitations under the License.
  */
 
-package uk.gov.hmrc.crdlcachestub.config
+package uk.gov.hmrc.crdlcachestub.models.formats
 
-import javax.inject.{Inject, Singleton}
-import play.api.Configuration
+import play.api.libs.json.Format
 
-@Singleton
-class AppConfig @Inject()(config: Configuration):
+import java.time.format.DateTimeFormatter
+import java.time.{DayOfWeek, LocalTime}
 
-  val appName: String = config.get[String]("appName")
+trait JavaTimeFormats {
+  protected val basicTimeFormat: DateTimeFormatter = DateTimeFormatter.ofPattern("HHmm")
+  protected val timeFormat: DateTimeFormatter      = DateTimeFormatter.ISO_LOCAL_TIME
+
+  given Format[DayOfWeek] = Format.of[Int].bimap(DayOfWeek.of, _.getValue)
+
+  given Format[LocalTime] =
+    Format.of[String].bimap(LocalTime.parse(_, timeFormat), timeFormat.format)
+}

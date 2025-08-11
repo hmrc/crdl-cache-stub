@@ -14,12 +14,20 @@
  * limitations under the License.
  */
 
-package uk.gov.hmrc.crdlcachestub.config
+package uk.gov.hmrc.crdlcachestub.models
 
-import javax.inject.{Inject, Singleton}
-import play.api.Configuration
+import play.api.libs.json.{Format, Json}
 
-@Singleton
-class AppConfig @Inject()(config: Configuration):
+import java.time.LocalDate
 
-  val appName: String = config.get[String]("appName")
+case class CustomsOfficeTimetable(
+  seasonCode: Int,
+  seasonName: Option[String],
+  seasonStartDate: LocalDate,
+  seasonEndDate: LocalDate,
+  customsOfficeTimetableLine: List[TimetableLine]
+)
+
+object CustomsOfficeTimetable {
+  given format: Format[CustomsOfficeTimetable] = Json.format[CustomsOfficeTimetable]
+}
