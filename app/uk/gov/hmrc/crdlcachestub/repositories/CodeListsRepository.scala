@@ -47,11 +47,17 @@ class CodeListsRepository @Inject() (val mongoComponent: MongoComponent)(using
   )
   with Transactions {
 
-  def deleteEntries(session: ClientSession) =
-    collection.deleteMany(session, empty()).toFuture()
+  def deleteEntries(session: ClientSession): Future[Unit] =
+    collection
+      .deleteMany(session, empty())
+      .toFuture()
+      .map(_ => ())
 
-  def saveEntries(session: ClientSession, entries: Seq[CodeListEntry]) =
-    collection.insertMany(session, entries).toFuture()
+  def saveEntries(session: ClientSession, entries: Seq[CodeListEntry]): Future[Unit] =
+    collection
+      .insertMany(session, entries)
+      .toFuture()
+      .map(_ => ())
 
   def fetchEntries(
     code: CodeListCode,

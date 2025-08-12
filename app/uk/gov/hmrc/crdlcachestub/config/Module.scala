@@ -18,6 +18,7 @@ package uk.gov.hmrc.crdlcachestub.config
 
 import uk.gov.hmrc.crdlcachestub.repositories.migration.ImportCodeListsMigration
 import uk.gov.hmrc.crdlcachestub.repositories.migration.ImportCustomsOfficesMigration
+import uk.gov.hmrc.crdlcachestub.repositories.migration.ResourceProvider
 import com.google.inject.AbstractModule
 
 class Module extends AbstractModule {
@@ -25,5 +26,6 @@ class Module extends AbstractModule {
     bind(classOf[AppConfig]).asEagerSingleton()
     bind(classOf[ImportCodeListsMigration]).asEagerSingleton()
     bind(classOf[ImportCustomsOfficesMigration]).asEagerSingleton()
+    bind(classOf[ResourceProvider]).toInstance(ResourceProvider.FromClasspath)
   }
 }

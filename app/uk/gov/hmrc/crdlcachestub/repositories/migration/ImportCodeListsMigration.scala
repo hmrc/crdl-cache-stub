@@ -30,27 +30,46 @@ import org.apache.pekko.actor.ActorSystem
 import scala.concurrent.ExecutionContext
 import play.api.libs.json.Json
 
+import play.api.libs.json.JsResult
+import scala.concurrent.Future
+import play.api.Logging
+
 @Singleton
 class ImportCodeListsMigration @Inject() (
   val mongoComponent: MongoComponent,
-  repository: CodeListsRepository
+  repository: CodeListsRepository,
+  resourceProvider: ResourceProvider
 )(using system: ActorSystem)
-  extends Transactions {
+  extends Transactions
+  with Logging {
+
   given ExecutionContext         = system.dispatcher
   given TransactionConfiguration = TransactionConfiguration.strict
 
-  val migrationComplete = withSessionAndTransaction { session =>
-    for {
-      _ <- repository.deleteEntries(session)
+  val migrationComplete: Future[Unit] =
+    withSessionAndTransaction { session =>
+      val importResult = for {
+        _ <- repository.deleteEntries(session)
 
-      _ <- StreamConverters
-        .fromInputStream(() => getClass.getResourceAsStream("/data/codelists.json"))
-        .via(JsonFraming.objectScanner(Int.MaxValue))
-        .map(bs => Json.parse(bs.toArray))
-        .map(json => Json.fromJson[CodeListEntry](json).get)
-        .grouped(100)
-        .mapAsync(1)(entries => repository.saveEntries(session, entries))
-        .run()
-    } yield ()
-  }
+        _ <- StreamConverters
+          .fromInputStream(resourceProvider.getResource("/data/codelists.json"))
+          .via(JsonFraming.objectScanner(Int.MaxValue))
+          .map(bs => Json.parse(bs.toArray))
+          .map(json => Json.fromJson[CodeListEntry](json))
+          .mapAsync(1)(result => Future.fromTry(JsResult.toTry(result)))
+          .grouped(100)
+          .mapAsync(1)(entries => repository.saveEntries(session, entries))
+          .run()
+      } yield ()
+
+      importResult.foreach { _ =>
+        logger.info(s"import-codelists job completed successfully")
+      }
+
+      importResult.failed.foreach { err =>
+        logger.error(s"import-codelists job failed due to error", err)
+      }
+
+      importResult
+    }
 }
