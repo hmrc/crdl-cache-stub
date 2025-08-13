@@ -16,8 +16,6 @@
 
 package uk.gov.hmrc.crdlcachestub.models
 
-import play.api.libs.json.{Format, Json}
-
 import java.time.LocalDate
 
 case class CustomsOfficeTimetable(
@@ -27,7 +25,3 @@ case class CustomsOfficeTimetable(
   seasonEndDate: LocalDate,
   customsOfficeTimetableLine: List[TimetableLine]
 )
-
-object CustomsOfficeTimetable {
-  given format: Format[CustomsOfficeTimetable] = Json.format[CustomsOfficeTimetable]
-}

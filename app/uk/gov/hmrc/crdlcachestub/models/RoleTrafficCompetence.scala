@@ -15,10 +15,4 @@
  */
 
 package uk.gov.hmrc.crdlcachestub.models
-
-import play.api.libs.json.{Format, Json}
 case class RoleTrafficCompetence(roleName: String, trafficType: String)
-
-object RoleTrafficCompetence {
-  given format: Format[RoleTrafficCompetence] = Json.format[RoleTrafficCompetence]
-}

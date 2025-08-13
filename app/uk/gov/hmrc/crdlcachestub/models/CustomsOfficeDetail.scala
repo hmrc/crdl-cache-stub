@@ -16,8 +16,6 @@
 
 package uk.gov.hmrc.crdlcachestub.models
 
-import play.api.libs.json.{Format, Json}
-
 case class CustomsOfficeDetail(
   customsOfficeUsualName: String,
   languageCode: String,
@@ -28,7 +26,3 @@ case class CustomsOfficeDetail(
   spaceToAdd: Boolean,
   streetAndNumber: String
 )
-
-object CustomsOfficeDetail {
-  given format: Format[CustomsOfficeDetail] = Json.format[CustomsOfficeDetail]
-}

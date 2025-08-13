@@ -16,33 +16,46 @@
 
 package uk.gov.hmrc.crdlcachestub.controllers
 
-import play.api.mvc.{Action, AnyContent, ControllerComponents}
+import play.api.http.HeaderNames
+import play.api.mvc.{Action, AnyContent, ControllerComponents, RequestHeader}
 import uk.gov.hmrc.play.bootstrap.backend.controller.BackendController
 import uk.gov.hmrc.crdlcachestub.repositories.CustomsOfficeListsRepository
 import play.api.libs.json.Json
+import uk.gov.hmrc.crdlcachestub.models.formats.HttpFormats
+import uk.gov.hmrc.crdlcachestub.repositories.migration.ImportCustomsOfficesMigration
+import uk.gov.hmrc.http.UpstreamErrorResponse
 
 import javax.inject.{Inject, Singleton}
-import scala.concurrent.ExecutionContext
+import scala.concurrent.{ExecutionContext, Future}
 
 @Singleton()
 class CustomsOfficeListsController @Inject() (
   cc: ControllerComponents,
-  customsOfficeListsRepository: CustomsOfficeListsRepository
+  customsOfficeListsRepository: CustomsOfficeListsRepository,
+  customsOfficeListsImport: ImportCustomsOfficesMigration
 )(using ec: ExecutionContext)
-  extends BackendController(cc) {
+  extends BackendController(cc)
+  with HttpFormats {
+
+  private def hasAuthorizationHeader(request: RequestHeader) =
+    request.headers.get(HeaderNames.AUTHORIZATION).isDefined
+
   def fetchCustomsOfficeLists(
     referenceNumbers: Option[Set[String]],
     countryCodes: Option[Set[String]],
     roles: Option[Set[String]]
-  ): Action[AnyContent] = Action.async { _ =>
-    customsOfficeListsRepository
-      .fetchCustomsOfficeLists(
-        referenceNumbers,
-        countryCodes,
-        roles
-      )
-      .map { customsOfficeLists =>
-        Ok(Json.toJson(customsOfficeLists))
-      }
+  ): Action[AnyContent] = Action.async { request =>
+    if (!hasAuthorizationHeader(request))
+      Future.failed(UpstreamErrorResponse("Unauthorized", UNAUTHORIZED))
+    else
+      for {
+        _ <- customsOfficeListsImport.migrationComplete
+        offices <- customsOfficeListsRepository
+          .fetchCustomsOfficeLists(
+            referenceNumbers,
+            countryCodes,
+            roles
+          )
+      } yield Ok(Json.toJson(offices))
   }
 }

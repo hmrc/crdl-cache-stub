@@ -20,6 +20,7 @@ import org.mongodb.scala.*
 import org.mongodb.scala.model.*
 import org.mongodb.scala.model.Filters.*
 import play.api.libs.json.*
+import uk.gov.hmrc.crdlcachestub.models.formats.MongoFormats
 import uk.gov.hmrc.crdlcachestub.models.{CodeListCode, CodeListEntry}
 import uk.gov.hmrc.mongo.MongoComponent
 import uk.gov.hmrc.mongo.play.json.{Codecs, PlayMongoRepository}
@@ -34,7 +35,7 @@ class CodeListsRepository @Inject() (val mongoComponent: MongoComponent)(using
 ) extends PlayMongoRepository[CodeListEntry](
     mongoComponent,
     collectionName = "codelists",
-    domainFormat = CodeListEntry.mongoFormat,
+    domainFormat = MongoFormats.codeListEntryFormat,
     extraCodecs =
       Codecs.playFormatSumCodecs[JsValue](Format(Reads.JsValueReads, Writes.jsValueWrites)) ++
         Codecs.playFormatSumCodecs[JsBoolean](Format(Reads.JsBooleanReads, Writes.jsValueWrites)),

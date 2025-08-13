@@ -16,12 +16,58 @@
 
 package uk.gov.hmrc.crdlcachestub.repositories.migration
 
+import org.apache.pekko.actor.ActorSystem
+import org.apache.pekko.stream.scaladsl.{JsonFraming, StreamConverters}
+import play.api.Logging
+import play.api.libs.json.{JsResult, Json}
+import uk.gov.hmrc.crdlcachestub.models.CustomsOffice
+import uk.gov.hmrc.crdlcachestub.models.formats.MongoFormats
 import uk.gov.hmrc.crdlcachestub.repositories.CustomsOfficeListsRepository
+import uk.gov.hmrc.mongo.MongoComponent
+import uk.gov.hmrc.mongo.transaction.{TransactionConfiguration, Transactions}
 
 import javax.inject.Singleton
 import javax.inject.Inject
+import scala.concurrent.{ExecutionContext, Future}
 
 @Singleton
-class ImportCustomsOfficesMigration @Inject() (repository: CustomsOfficeListsRepository) {
-    
+class ImportCustomsOfficesMigration @Inject() (
+  val mongoComponent: MongoComponent,
+  repository: CustomsOfficeListsRepository,
+  resourceProvider: ResourceProvider
+)(using system: ActorSystem)
+  extends Transactions
+  with Logging
+  with MongoFormats {
+
+  given ExecutionContext = system.dispatcher
+
+  given TransactionConfiguration = TransactionConfiguration.strict
+
+  val migrationComplete: Future[Unit] =
+    withSessionAndTransaction { session =>
+      val importResult = for {
+        _ <- repository.deleteOffices(session)
+
+        _ <- StreamConverters
+          .fromInputStream(resourceProvider.getResource("/data/customsOffices.json"))
+          .via(JsonFraming.objectScanner(Int.MaxValue))
+          .map(bs => Json.parse(bs.toArray))
+          .map(json => Json.fromJson[CustomsOffice](json))
+          .mapAsync(1)(result => Future.fromTry(JsResult.toTry(result)))
+          .grouped(100)
+          .mapAsync(1)(offices => repository.saveOffices(session, offices))
+          .run()
+      } yield ()
+
+      importResult.foreach { _ =>
+        logger.info(s"import-offices job completed successfully")
+      }
+
+      importResult.failed.foreach { err =>
+        logger.error(s"import-offices job failed due to error", err)
+      }
+
+      importResult
+    }
 }

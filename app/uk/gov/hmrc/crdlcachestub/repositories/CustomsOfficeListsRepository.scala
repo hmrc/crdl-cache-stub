@@ -16,9 +16,11 @@
 
 package uk.gov.hmrc.crdlcachestub.repositories
 
+import org.mongodb.scala.ClientSession
 import org.mongodb.scala.model.*
 import org.mongodb.scala.model.Filters.*
 import uk.gov.hmrc.crdlcachestub.models.CustomsOffice
+import uk.gov.hmrc.crdlcachestub.models.formats.MongoFormats
 import uk.gov.hmrc.mongo.MongoComponent
 import uk.gov.hmrc.mongo.play.json.PlayMongoRepository
 import uk.gov.hmrc.mongo.transaction.Transactions
@@ -32,7 +34,7 @@ class CustomsOfficeListsRepository @Inject() (val mongoComponent: MongoComponent
 ) extends PlayMongoRepository[CustomsOffice](
     mongoComponent,
     collectionName = "customsOfficeLists",
-    domainFormat = CustomsOffice.mongoFormat,
+    domainFormat = MongoFormats.customsOfficeFormat,
     indexes = Seq(
       IndexModel(Indexes.ascending("referenceNumber", "activeFrom"), IndexOptions().unique(true)),
       IndexModel(
@@ -81,9 +83,20 @@ class CustomsOfficeListsRepository @Inject() (val mongoComponent: MongoComponent
       .getOrElse(List.empty)
 
     val allFilters = referenceNumberFilters ++ countryCodeFilters ++ roleFilters
-
     collection
-      .find(and(allFilters*))
+      .find(if (allFilters.nonEmpty) and(allFilters*) else empty())
       .toFuture()
   }
+
+  def deleteOffices(session: ClientSession): Future[Unit] =
+    collection
+      .deleteMany(session, empty())
+      .toFuture()
+      .map(_ => ())
+
+  def saveOffices(session: ClientSession, offices: Seq[CustomsOffice]): Future[Unit] =
+    collection
+      .insertMany(session, offices)
+      .toFuture()
+      .map(_ => ())
 }

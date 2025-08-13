@@ -321,7 +321,7 @@ class CodeListsControllerSpec
     response.status mustBe Status.INTERNAL_SERVER_ERROR
   }
 
-  "CodeListsController.fetchCodeListVersions" should "return 200 OK when there are no errors" ignore {
+  "CodeListsController.fetchCodeListVersions" should "return 200 OK when there are no errors" in {
     val response =
       httpClientV2
         .get(url"http://localhost:$port/crdl-cache/lists")
@@ -329,16 +329,16 @@ class CodeListsControllerSpec
         .execute[HttpResponse]
         .futureValue
 
-    response.json mustBe Json.arr(
+    response.json.as[List[JsObject]].take(2) mustBe List(
       Json.obj(
-        "codeListCode"    -> "BC08",
-        "snapshotVersion" -> 1,
-        "lastUpdated"     -> "2025-06-29T00:00:00Z"
+        "codeListCode"    -> "BC26",
+        "snapshotVersion" -> 9,
+        "lastUpdated"     -> "2025-08-07T15:10:28.292Z"
       ),
       Json.obj(
-        "codeListCode"    -> "BC66",
-        "snapshotVersion" -> 1,
-        "lastUpdated"     -> "2025-06-28T00:00:00Z"
+        "codeListCode"    -> "BC40",
+        "snapshotVersion" -> 9,
+        "lastUpdated"     -> "2025-08-07T15:10:28.293Z"
       )
     )
 

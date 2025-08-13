@@ -19,9 +19,10 @@ package uk.gov.hmrc.crdlcachestub.models
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.must.Matchers
 import play.api.libs.json.Json
+import uk.gov.hmrc.crdlcachestub.models.formats.MongoFormats
 
 import java.time.format.DateTimeFormatter
-import java.time.{DayOfWeek, Instant, LocalDate, LocalTime}
+import java.time.{DayOfWeek, LocalDate, LocalTime}
 
 class CustomsOfficeSpec extends AnyFlatSpec with Matchers {
   val timeFormat = DateTimeFormatter.ofPattern("HHmm")
@@ -111,8 +112,8 @@ class CustomsOfficeSpec extends AnyFlatSpec with Matchers {
     "customsOfficeTimetable" -> Json.arr(
       Json.obj(
         "seasonCode"      -> 1,
-        "seasonStartDate" -> "2018-01-01",
-        "seasonEndDate"   -> "2099-12-31",
+        "seasonStartDate" -> Json.obj("$date" -> Json.obj("$numberLong" -> "1514764800000")),
+        "seasonEndDate"   -> Json.obj("$date" -> Json.obj("$numberLong" -> "4102358400000")),
         "customsOfficeTimetableLine" -> Json.arr(
           Json.obj(
             "dayInTheWeekEndDay"              -> 5,
@@ -199,10 +200,12 @@ class CustomsOfficeSpec extends AnyFlatSpec with Matchers {
   )
 
   "The MongoDB format for CustomsOffice" should "serialize all properties as Mongo Extended JSON" in {
-    Json.toJson(expectedSnapshot)(CustomsOffice.mongoFormat) mustBe mongoJson
+    Json.toJson(expectedSnapshot)(MongoFormats.customsOfficeFormat) mustBe mongoJson
   }
 
   it should "deserialize all properties from Mongo Extended JSON" in {
-    Json.fromJson[CustomsOffice](mongoJson)(CustomsOffice.mongoFormat).get mustBe expectedSnapshot
+    Json
+      .fromJson[CustomsOffice](mongoJson)(MongoFormats.customsOfficeFormat)
+      .get mustBe expectedSnapshot
   }
 }

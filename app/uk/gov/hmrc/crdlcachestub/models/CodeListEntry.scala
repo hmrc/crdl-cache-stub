@@ -16,7 +16,6 @@
 
 package uk.gov.hmrc.crdlcachestub.models
 
-import play.api.libs.functional.syntax.*
 import play.api.libs.json.*
 
 case class CodeListEntry(
@@ -25,18 +24,3 @@ case class CodeListEntry(
   value: String,
   properties: JsObject
 )
-
-object CodeListEntry {
-  // Only serialize the key, value and properties in JSON responses
-  given Writes[CodeListEntry] = (
-    (JsPath \ "key").write[String] and
-      (JsPath \ "value").write[String] and
-      (JsPath \ "properties").write[JsObject]
-  )(entry => (entry.key, entry.value, entry.properties))
-
-  given Reads[CodeListEntry] = Json.reads[CodeListEntry]
-
-  // Serialize the full object in MongoDB
-  val mongoFormat: Format[CodeListEntry] =
-    Json.format[CodeListEntry]
-}

@@ -16,8 +16,6 @@
 
 package uk.gov.hmrc.crdlcachestub.models
 
-import play.api.libs.json.*
-
 import java.time.LocalDate
 
 case class CustomsOffice(
@@ -45,12 +43,3 @@ case class CustomsOffice(
   customsOfficeLsd: CustomsOfficeDetail,
   customsOfficeTimetable: List[CustomsOfficeTimetable]
 )
-
-object CustomsOffice {
-  given Format[CustomsOffice] = Json.format[CustomsOffice]
-
-  val mongoFormat: Format[CustomsOffice] = { // Use the Mongo Extended JSON format for dates
-    import uk.gov.hmrc.mongo.play.json.formats.MongoJavatimeFormats.Implicits.*
-    Json.format[CustomsOffice]
-  }
-}

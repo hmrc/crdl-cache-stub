@@ -16,9 +16,6 @@
 
 package uk.gov.hmrc.crdlcachestub.models
 
-import play.api.libs.json.{Format, Json}
-import uk.gov.hmrc.crdlcachestub.models.formats.JavaTimeFormats
-
 import java.time.{DayOfWeek, LocalTime}
 
 case class TimetableLine(
@@ -30,6 +27,3 @@ case class TimetableLine(
   openingHoursTimeSecondPeriodTo: Option[LocalTime],
   customsOfficeRoleTrafficCompetence: List[RoleTrafficCompetence]
 )
-object TimetableLine extends JavaTimeFormats {
-  given format: Format[TimetableLine] = Json.format[TimetableLine]
-}

@@ -16,19 +16,18 @@
 
 package uk.gov.hmrc.crdlcachestub.controllers
 
+import play.api.http.HeaderNames
 import play.api.libs.json.{JsValue, Json}
-import play.api.mvc.{Action, AnyContent, ControllerComponents}
+import play.api.mvc.{Action, AnyContent, ControllerComponents, RequestHeader}
+import uk.gov.hmrc.crdlcachestub.models.CodeListCode
+import uk.gov.hmrc.crdlcachestub.models.formats.HttpFormats
 import uk.gov.hmrc.crdlcachestub.repositories.CodeListsRepository
 import uk.gov.hmrc.crdlcachestub.repositories.migration.ImportCodeListsMigration
-import uk.gov.hmrc.crdlcachestub.models.{CodeListCode, CodeListEntry}
+import uk.gov.hmrc.http.UpstreamErrorResponse
 import uk.gov.hmrc.play.bootstrap.backend.controller.BackendController
 
 import javax.inject.{Inject, Singleton}
-import scala.concurrent.ExecutionContext
-import play.api.http.HeaderNames
-import play.api.mvc.RequestHeader
-import scala.concurrent.Future
-import uk.gov.hmrc.http.UpstreamErrorResponse
+import scala.concurrent.{ExecutionContext, Future}
 
 @Singleton()
 class CodeListsController @Inject() (
@@ -36,7 +35,8 @@ class CodeListsController @Inject() (
   codeListsRepository: CodeListsRepository,
   codeListImport: ImportCodeListsMigration
 )(using ec: ExecutionContext)
-  extends BackendController(cc) {
+  extends BackendController(cc)
+  with HttpFormats {
 
   private def hasAuthorizationHeader(request: RequestHeader) =
     request.headers.get(HeaderNames.AUTHORIZATION).isDefined
@@ -65,6 +65,6 @@ class CodeListsController @Inject() (
       if (!hasAuthorizationHeader(request))
         throw UpstreamErrorResponse("Unauthorized", UNAUTHORIZED)
       else
-        InternalServerError
+        Ok.sendResource("data/lastUpdated.json")
     }
 }

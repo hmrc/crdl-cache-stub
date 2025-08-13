@@ -1,279 +1,155 @@
 [{
-  "codeListCode": "BC03",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:28:44.884Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "9"
-  }
-},
-{
   "codeListCode": "BC26",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:28:44.861Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "9"
-  }
-},
-{
-  "codeListCode": "BC09",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:28:44.963Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "9"
-  }
-},
-{
-  "codeListCode": "BC01",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:28:44.902Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "9"
-  }
-},
-{
-  "codeListCode": "BC22",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:28:44.878Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "6"
-  }
-},
-{
-  "codeListCode": "BC15",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:28:45.096Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "9"
-  }
-},
-{
-  "codeListCode": "BC11",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:28:45.463Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "9"
-  }
-},
-{
-  "codeListCode": "BC41",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:28:47.233Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "9"
-  }
-},
-{
-  "codeListCode": "BC34",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:28:47.288Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "6"
-  }
-},
-{
-  "codeListCode": "BC35",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:28:47.429Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "9"
-  }
-},
-{
-  "codeListCode": "BC12",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:29:03.227Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "35"
-  }
-},
-{
-  "codeListCode": "BC08",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:29:02.415Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "22"
-  }
-},
-{
-  "codeListCode": "BC36",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:28:48.240Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "9"
-  }
+  "lastUpdated": "2025-08-07T15:10:28.292Z",
+  "snapshotVersion": 9
 },
 {
   "codeListCode": "BC40",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:28:47.992Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "9"
-  }
+  "lastUpdated": "2025-08-07T15:10:28.293Z",
+  "snapshotVersion": 9
 },
 {
-  "codeListCode": "BC43",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:28:48.337Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "6"
-  }
+  "codeListCode": "BC34",
+  "lastUpdated": "2025-08-07T15:10:28.294Z",
+  "snapshotVersion": 6
 },
 {
-  "codeListCode": "BC51",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:28:51.133Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "9"
-  }
+  "codeListCode": "BC03",
+  "lastUpdated": "2025-08-07T15:10:28.298Z",
+  "snapshotVersion": 9
 },
 {
-  "codeListCode": "BC46",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:28:51.404Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "9"
-  }
+  "codeListCode": "BC41",
+  "lastUpdated": "2025-08-07T15:10:28.304Z",
+  "snapshotVersion": 9
 },
 {
-  "codeListCode": "BC66",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:28:51.418Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "9"
-  }
+  "codeListCode": "BC22",
+  "lastUpdated": "2025-08-07T15:10:28.307Z",
+  "snapshotVersion": 6
 },
 {
-  "codeListCode": "BC52",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:28:51.727Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "9"
-  }
+  "codeListCode": "BC15",
+  "lastUpdated": "2025-08-07T15:10:28.312Z",
+  "snapshotVersion": 9
 },
 {
-  "codeListCode": "BC58",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:28:51.795Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "9"
-  }
+  "codeListCode": "BC08",
+  "lastUpdated": "2025-08-07T15:10:28.340Z",
+  "snapshotVersion": 12
 },
 {
-  "codeListCode": "BC17",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:28:55.011Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "7"
-  }
+  "codeListCode": "BC01",
+  "lastUpdated": "2025-08-07T15:10:28.319Z",
+  "snapshotVersion": 9
 },
 {
-  "codeListCode": "BC67",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:28:53.251Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "9"
-  }
+  "codeListCode": "BC35",
+  "lastUpdated": "2025-08-07T15:10:28.321Z",
+  "snapshotVersion": 9
 },
 {
-  "codeListCode": "E200",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:28:55.478Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "2"
-  }
+  "codeListCode": "BC09",
+  "lastUpdated": "2025-08-07T15:10:28.327Z",
+  "snapshotVersion": 9
 },
 {
-  "codeListCode": "BC108",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:28:55.090Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "9"
-  }
+  "codeListCode": "BC11",
+  "lastUpdated": "2025-08-07T15:10:28.361Z",
+  "snapshotVersion": 9
 },
 {
-  "codeListCode": "BC109",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:28:55.281Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "9"
-  }
+  "codeListCode": "BC36",
+  "lastUpdated": "2025-08-07T15:10:28.364Z",
+  "snapshotVersion": 9
 },
 {
-  "codeListCode": "BC107",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:28:55.455Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "9"
-  }
-},
-{
-  "codeListCode": "BC57",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:28:55.559Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "6"
-  }
-},
-{
-  "codeListCode": "CL239",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:28:56.229Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "2"
-  }
-},
-{
-  "codeListCode": "BC106",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:28:56.804Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "9"
-  }
+  "codeListCode": "BC12",
+  "lastUpdated": "2025-08-07T15:10:28.446Z",
+  "snapshotVersion": 33
 },
 {
   "codeListCode": "BC37",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:28:58.726Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "7"
-  }
+  "lastUpdated": "2025-08-07T15:10:28.773Z",
+  "snapshotVersion": 7
+},
+{
+  "codeListCode": "BC17",
+  "lastUpdated": "2025-08-07T15:10:28.856Z",
+  "snapshotVersion": 7
+},
+{
+  "codeListCode": "BC52",
+  "lastUpdated": "2025-08-07T15:10:29.336Z",
+  "snapshotVersion": 9
+},
+{
+  "codeListCode": "BC43",
+  "lastUpdated": "2025-08-07T15:10:29.337Z",
+  "snapshotVersion": 6
+},
+{
+  "codeListCode": "BC51",
+  "lastUpdated": "2025-08-07T15:10:29.340Z",
+  "snapshotVersion": 9
+},
+{
+  "codeListCode": "BC46",
+  "lastUpdated": "2025-08-07T15:10:29.340Z",
+  "snapshotVersion": 9
+},
+{
+  "codeListCode": "BC58",
+  "lastUpdated": "2025-08-07T15:10:29.343Z",
+  "snapshotVersion": 9
+},
+{
+  "codeListCode": "BC66",
+  "lastUpdated": "2025-08-07T15:10:29.357Z",
+  "snapshotVersion": 9
+},
+{
+  "codeListCode": "BC67",
+  "lastUpdated": "2025-08-07T15:10:29.361Z",
+  "snapshotVersion": 9
+},
+{
+  "codeListCode": "BC108",
+  "lastUpdated": "2025-08-07T15:10:29.375Z",
+  "snapshotVersion": 9
+},
+{
+  "codeListCode": "BC107",
+  "lastUpdated": "2025-08-07T15:10:29.376Z",
+  "snapshotVersion": 9
+},
+{
+  "codeListCode": "BC57",
+  "lastUpdated": "2025-08-07T15:10:29.587Z",
+  "snapshotVersion": 6
+},
+{
+  "codeListCode": "CL239",
+  "lastUpdated": "2025-08-07T15:10:29.402Z",
+  "snapshotVersion": 2
+},
+{
+  "codeListCode": "BC109",
+  "lastUpdated": "2025-08-07T15:10:29.409Z",
+  "snapshotVersion": 9
+},
+{
+  "codeListCode": "BC106",
+  "lastUpdated": "2025-08-07T15:10:29.423Z",
+  "snapshotVersion": 9
 },
 {
   "codeListCode": "CL380",
-  "lastUpdated": {
-    "$date": "2025-08-11T12:28:57.998Z"
-  },
-  "snapshotVersion": {
-    "$numberLong": "5"
-  }
+  "lastUpdated": "2025-08-07T15:10:29.586Z",
+  "snapshotVersion": 4
+},
+{
+  "codeListCode": "E200",
+  "lastUpdated": "2024-12-27T10:53:17Z",
+  "snapshotVersion": 0
 }]

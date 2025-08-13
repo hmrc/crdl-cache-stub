@@ -21,18 +21,21 @@ import uk.gov.hmrc.crdlcachestub.repositories.CodeListsRepository
 import uk.gov.hmrc.crdlcachestub.models.CodeListEntry
 import org.apache.pekko.stream.scaladsl.StreamConverters
 import org.apache.pekko.stream.scaladsl.JsonFraming
+
 import javax.inject.Inject
 import org.apache.pekko.stream.Materializer
 import uk.gov.hmrc.mongo.transaction.Transactions
 import uk.gov.hmrc.mongo.MongoComponent
 import uk.gov.hmrc.mongo.transaction.TransactionConfiguration
 import org.apache.pekko.actor.ActorSystem
+
 import scala.concurrent.ExecutionContext
 import play.api.libs.json.Json
-
 import play.api.libs.json.JsResult
+
 import scala.concurrent.Future
 import play.api.Logging
+import uk.gov.hmrc.crdlcachestub.models.formats.MongoFormats
 
 @Singleton
 class ImportCodeListsMigration @Inject() (
@@ -41,7 +44,8 @@ class ImportCodeListsMigration @Inject() (
   resourceProvider: ResourceProvider
 )(using system: ActorSystem)
   extends Transactions
-  with Logging {
+  with Logging
+  with MongoFormats {
 
   given ExecutionContext         = system.dispatcher
   given TransactionConfiguration = TransactionConfiguration.strict
