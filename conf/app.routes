@@ -1,3 +1,5 @@
 # microservice specific routes
 
-GET        /hello-world             uk.gov.hmrc.crdlcachestub.controllers.MicroserviceHelloWorldController.hello
+GET        /lists       uk.gov.hmrc.crdlcachestub.controllers.CodeListsController.fetchCodeListVersions
+GET        /lists/:code uk.gov.hmrc.crdlcachestub.controllers.CodeListsController.fetchCodeListEntries(code: CodeListCode, keys: Option[Set[String]] ?= None, properties: Option[Map[String, JsValue]] ?= None)
+GET        /offices     uk.gov.hmrc.crdlcachestub.controllers.CustomsOfficeListsController.fetchCustomsOfficeLists(referenceNumbers: Option[Set[String]] ?= None, countryCodes: Option[Set[String]] ?= None, roles: Option[Set[String]] ?= None)
