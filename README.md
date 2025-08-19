@@ -9,7 +9,21 @@ This ensures that downstream services do not need to be aware of the lifecycle o
 
 This service *must not* be deployed to QA, staging or production! You should check that your service is able to call a real instance of crdl-cache in those environments.
 
-For usage instructions, please see the [API Documentation](https://redocly.github.io/redoc/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhmrc%2Fcrdl-cache%2Frefs%2Fheads%2Fmain%2Fpublic%2Fapi%2F1.0%2Fopenapi.yaml) and [README](https://github.com/hmrc/crdl-cache/blob/main/README.md) for crdl-cache.
+For detailed usage instructions, please see the [API Documentation](https://redocly.github.io/redoc/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhmrc%2Fcrdl-cache%2Frefs%2Fheads%2Fmain%2Fpublic%2Fapi%2F1.0%2Fopenapi.yaml) and [README](https://github.com/hmrc/crdl-cache/blob/main/README.md) for crdl-cache.
+
+### Usage
+
+Start the service with service manager:
+
+```console
+$ sm2 --start CRDL_CACHE_STUB
+```
+
+Or from the repository directory with sbt:
+
+```
+sbt run
+```
 
 ### Differences
 
