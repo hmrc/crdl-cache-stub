@@ -11,6 +11,17 @@ This service *must not* be deployed to QA, staging or production! You should che
 
 For detailed usage instructions, please see the [API Documentation](https://redocly.github.io/redoc/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhmrc%2Fcrdl-cache%2Frefs%2Fheads%2Fmain%2Fpublic%2Fapi%2F1.0%2Fopenapi.yaml) and [README](https://github.com/hmrc/crdl-cache/blob/main/README.md) for crdl-cache.
 
+### Prerequisites
+
+To ensure that you have all the prerequisites for running this service, follow the Developer setup instructions in the MDTP Handbook.
+
+This should ensure that you have the prerequisites for the service installed:
+
+* JDK 21
+* sbt 1.10.x or later
+* MongoDB 7.x or later
+* Service Manager 2.x
+
 ### Usage
 
 Start the service with service manager:
@@ -54,17 +65,6 @@ mongosh --file scripts/exportLastUpdated.js
 ```
 
 This will overwrite the stub data files in the [conf/data](./conf/data) folder.
-
-### Prerequisites
-
-To ensure that you have all the prerequisites for running this service, follow the Developer setup instructions in the MDTP Handbook.
-
-This should ensure that you have the prerequisites for the service installed:
-
-* JDK 21
-* sbt 1.10.x or later
-* MongoDB 7.x or later
-* Service Manager 2.x
 
 ### License
 
