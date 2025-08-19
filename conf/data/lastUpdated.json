@@ -1,155 +1,157 @@
-[{
-  "codeListCode": "BC26",
-  "lastUpdated": "2025-08-07T15:10:28.292Z",
-  "snapshotVersion": 9
-},
-{
-  "codeListCode": "BC40",
-  "lastUpdated": "2025-08-07T15:10:28.293Z",
-  "snapshotVersion": 9
-},
-{
-  "codeListCode": "BC34",
-  "lastUpdated": "2025-08-07T15:10:28.294Z",
-  "snapshotVersion": 6
-},
-{
-  "codeListCode": "BC03",
-  "lastUpdated": "2025-08-07T15:10:28.298Z",
-  "snapshotVersion": 9
-},
-{
-  "codeListCode": "BC41",
-  "lastUpdated": "2025-08-07T15:10:28.304Z",
-  "snapshotVersion": 9
-},
-{
-  "codeListCode": "BC22",
-  "lastUpdated": "2025-08-07T15:10:28.307Z",
-  "snapshotVersion": 6
-},
-{
-  "codeListCode": "BC15",
-  "lastUpdated": "2025-08-07T15:10:28.312Z",
-  "snapshotVersion": 9
-},
-{
-  "codeListCode": "BC08",
-  "lastUpdated": "2025-08-07T15:10:28.340Z",
-  "snapshotVersion": 12
-},
-{
-  "codeListCode": "BC01",
-  "lastUpdated": "2025-08-07T15:10:28.319Z",
-  "snapshotVersion": 9
-},
-{
-  "codeListCode": "BC35",
-  "lastUpdated": "2025-08-07T15:10:28.321Z",
-  "snapshotVersion": 9
-},
-{
-  "codeListCode": "BC09",
-  "lastUpdated": "2025-08-07T15:10:28.327Z",
-  "snapshotVersion": 9
-},
-{
-  "codeListCode": "BC11",
-  "lastUpdated": "2025-08-07T15:10:28.361Z",
-  "snapshotVersion": 9
-},
-{
-  "codeListCode": "BC36",
-  "lastUpdated": "2025-08-07T15:10:28.364Z",
-  "snapshotVersion": 9
-},
-{
-  "codeListCode": "BC12",
-  "lastUpdated": "2025-08-07T15:10:28.446Z",
-  "snapshotVersion": 33
-},
-{
-  "codeListCode": "BC37",
-  "lastUpdated": "2025-08-07T15:10:28.773Z",
-  "snapshotVersion": 7
-},
-{
-  "codeListCode": "BC17",
-  "lastUpdated": "2025-08-07T15:10:28.856Z",
-  "snapshotVersion": 7
-},
-{
-  "codeListCode": "BC52",
-  "lastUpdated": "2025-08-07T15:10:29.336Z",
-  "snapshotVersion": 9
-},
-{
-  "codeListCode": "BC43",
-  "lastUpdated": "2025-08-07T15:10:29.337Z",
-  "snapshotVersion": 6
-},
-{
-  "codeListCode": "BC51",
-  "lastUpdated": "2025-08-07T15:10:29.340Z",
-  "snapshotVersion": 9
-},
-{
-  "codeListCode": "BC46",
-  "lastUpdated": "2025-08-07T15:10:29.340Z",
-  "snapshotVersion": 9
-},
-{
-  "codeListCode": "BC58",
-  "lastUpdated": "2025-08-07T15:10:29.343Z",
-  "snapshotVersion": 9
-},
-{
-  "codeListCode": "BC66",
-  "lastUpdated": "2025-08-07T15:10:29.357Z",
-  "snapshotVersion": 9
-},
-{
-  "codeListCode": "BC67",
-  "lastUpdated": "2025-08-07T15:10:29.361Z",
-  "snapshotVersion": 9
-},
-{
-  "codeListCode": "BC108",
-  "lastUpdated": "2025-08-07T15:10:29.375Z",
-  "snapshotVersion": 9
-},
-{
-  "codeListCode": "BC107",
-  "lastUpdated": "2025-08-07T15:10:29.376Z",
-  "snapshotVersion": 9
-},
-{
-  "codeListCode": "BC57",
-  "lastUpdated": "2025-08-07T15:10:29.587Z",
-  "snapshotVersion": 6
-},
-{
-  "codeListCode": "CL239",
-  "lastUpdated": "2025-08-07T15:10:29.402Z",
-  "snapshotVersion": 2
-},
-{
-  "codeListCode": "BC109",
-  "lastUpdated": "2025-08-07T15:10:29.409Z",
-  "snapshotVersion": 9
-},
-{
-  "codeListCode": "BC106",
-  "lastUpdated": "2025-08-07T15:10:29.423Z",
-  "snapshotVersion": 9
-},
-{
-  "codeListCode": "CL380",
-  "lastUpdated": "2025-08-07T15:10:29.586Z",
-  "snapshotVersion": 4
-},
-{
-  "codeListCode": "E200",
-  "lastUpdated": "2024-12-27T10:53:17Z",
-  "snapshotVersion": 0
-}]
+[
+  {
+    "codeListCode": "BC01",
+    "lastUpdated": "2025-08-19T08:27:58.399Z",
+    "snapshotVersion": 9
+  },
+  {
+    "codeListCode": "BC03",
+    "lastUpdated": "2025-08-19T08:27:58.139Z",
+    "snapshotVersion": 9
+  },
+  {
+    "codeListCode": "BC08",
+    "lastUpdated": "2025-08-19T08:28:28.538Z",
+    "snapshotVersion": 22
+  },
+  {
+    "codeListCode": "BC09",
+    "lastUpdated": "2025-08-19T08:27:58.220Z",
+    "snapshotVersion": 9
+  },
+  {
+    "codeListCode": "BC106",
+    "lastUpdated": "2025-08-19T08:28:22.312Z",
+    "snapshotVersion": 9
+  },
+  {
+    "codeListCode": "BC107",
+    "lastUpdated": "2025-08-19T08:28:22.878Z",
+    "snapshotVersion": 9
+  },
+  {
+    "codeListCode": "BC108",
+    "lastUpdated": "2025-08-19T08:28:22.109Z",
+    "snapshotVersion": 9
+  },
+  {
+    "codeListCode": "BC109",
+    "lastUpdated": "2025-08-19T08:28:22.872Z",
+    "snapshotVersion": 9
+  },
+  {
+    "codeListCode": "BC11",
+    "lastUpdated": "2025-08-19T08:27:58.631Z",
+    "snapshotVersion": 9
+  },
+  {
+    "codeListCode": "BC12",
+    "lastUpdated": "2025-08-19T08:28:24.899Z",
+    "snapshotVersion": 35
+  },
+  {
+    "codeListCode": "BC15",
+    "lastUpdated": "2025-08-19T08:27:58.486Z",
+    "snapshotVersion": 9
+  },
+  {
+    "codeListCode": "BC17",
+    "lastUpdated": "2025-08-19T08:49:37.352Z",
+    "snapshotVersion": 7
+  },
+  {
+    "codeListCode": "BC22",
+    "lastUpdated": "2025-08-19T08:27:58.168Z",
+    "snapshotVersion": 6
+  },
+  {
+    "codeListCode": "BC26",
+    "lastUpdated": "2025-08-19T08:27:58.456Z",
+    "snapshotVersion": 9
+  },
+  {
+    "codeListCode": "BC34",
+    "lastUpdated": "2025-08-19T08:28:07.925Z",
+    "snapshotVersion": 6
+  },
+  {
+    "codeListCode": "BC35",
+    "lastUpdated": "2025-08-19T08:28:00.291Z",
+    "snapshotVersion": 9
+  },
+  {
+    "codeListCode": "BC36",
+    "lastUpdated": "2025-08-19T08:28:07.379Z",
+    "snapshotVersion": 9
+  },
+  {
+    "codeListCode": "BC37",
+    "lastUpdated": "2025-08-19T08:49:37.313Z",
+    "snapshotVersion": 7
+  },
+  {
+    "codeListCode": "BC40",
+    "lastUpdated": "2025-08-19T08:28:03.003Z",
+    "snapshotVersion": 9
+  },
+  {
+    "codeListCode": "BC41",
+    "lastUpdated": "2025-08-19T08:28:10.265Z",
+    "snapshotVersion": 9
+  },
+  {
+    "codeListCode": "BC43",
+    "lastUpdated": "2025-08-19T08:28:07.785Z",
+    "snapshotVersion": 6
+  },
+  {
+    "codeListCode": "BC46",
+    "lastUpdated": "2025-08-19T08:28:20.232Z",
+    "snapshotVersion": 9
+  },
+  {
+    "codeListCode": "BC51",
+    "lastUpdated": "2025-08-19T08:28:20.012Z",
+    "snapshotVersion": 9
+  },
+  {
+    "codeListCode": "BC52",
+    "lastUpdated": "2025-08-19T08:28:19.808Z",
+    "snapshotVersion": 9
+  },
+  {
+    "codeListCode": "BC57",
+    "lastUpdated": "2025-08-19T08:28:22.217Z",
+    "snapshotVersion": 6
+  },
+  {
+    "codeListCode": "BC58",
+    "lastUpdated": "2025-08-19T08:28:20.230Z",
+    "snapshotVersion": 9
+  },
+  {
+    "codeListCode": "BC66",
+    "lastUpdated": "2025-08-19T08:28:20.151Z",
+    "snapshotVersion": 9
+  },
+  {
+    "codeListCode": "BC67",
+    "lastUpdated": "2025-08-19T08:28:19.667Z",
+    "snapshotVersion": 9
+  },
+  {
+    "codeListCode": "CL239",
+    "lastUpdated": "2025-08-19T08:28:22.015Z",
+    "snapshotVersion": 2
+  },
+  {
+    "codeListCode": "CL380",
+    "lastUpdated": "2025-08-19T08:28:23.235Z",
+    "snapshotVersion": 5
+  },
+  {
+    "codeListCode": "E200",
+    "lastUpdated": "2025-08-19T08:28:13.349Z",
+    "snapshotVersion": 2
+  }
+]

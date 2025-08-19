@@ -33,6 +33,28 @@ This service differs from crdl-cache in some very minor ways:
 * This service does not return status 404 (Not Found) for unrecognised codelist codes - it returns an empty array of codelist entries. We hope that you do not see this condition in the normal usage of your service!
 * This service does not check for a specific [internal-auth](https://github.com/hmrc/internal-auth) token, it simply checks that any Authorization header is present.
 
+### Updating the stub data
+
+The stub data is sourced from a real instance of [crdl-cache](https://github.com/hmrc/crdl-cache).
+
+Before exporting the data, you must ensure that you have imported data into the crdl-cache service using its test-only endpoints.
+
+You will need to install [mongosh](https://www.mongodb.com/docs/mongodb-shell/install/) to perform the export.
+
+On MacOS this can be done via Homebrew with `brew install mongosh`.
+
+In order to update the stub data, use the scripts in the [scripts](./scripts/) folder.
+
+For example:
+
+```shell
+mongosh --file scripts/exportCodelists.js
+mongosh --file scripts/exportCustomsOffices.js
+mongosh --file scripts/exportLastUpdated.js
+```
+
+This will overwrite the stub data files in the [conf/data](./conf/data) folder.
+
 ### Prerequisites
 
 To ensure that you have all the prerequisites for running this service, follow the Developer setup instructions in the MDTP Handbook.
