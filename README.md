@@ -24,6 +24,7 @@ Or from the repository directory with sbt:
 ```
 sbt run
 ```
+The service runs on port 7254 by default.
 
 ### Differences
 
@@ -43,6 +44,11 @@ This should ensure that you have the prerequisites for the service installed:
 * sbt 1.10.x or later
 * MongoDB 7.x or later
 * Service Manager 2.x
+
+### All tests and checks
+This is an sbt command alias specific to this project. It will run a scala format
+check, run unit tests, run integration tests and produce a coverage report:
+> `sbt runAllChecks`
 
 ### License
 
