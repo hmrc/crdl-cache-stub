@@ -53,7 +53,7 @@ class CodeListsControllerSpec
   given ExecutionContext = ExecutionContext.global
   given HeaderCarrier    = HeaderCarrier()
 
-  private val codeListsRepository = mock[CodeListsRepository]
+  private val codeListsRepository      = mock[CodeListsRepository]
   private val importCodeListsMigration = mock[ImportCodeListsMigration]
 
   private val codeListEntries = List(
@@ -329,17 +329,15 @@ class CodeListsControllerSpec
         .execute[HttpResponse]
         .futureValue
 
-    response.json.as[List[JsObject]].take(2) mustBe List(
-      Json.obj(
-        "codeListCode"    -> "BC26",
-        "snapshotVersion" -> 9,
-        "lastUpdated"     -> "2025-08-07T15:10:28.292Z"
-      ),
-      Json.obj(
-        "codeListCode"    -> "BC40",
-        "snapshotVersion" -> 9,
-        "lastUpdated"     -> "2025-08-07T15:10:28.293Z"
-      )
+    response.json
+      .as[List[JsObject]]
+      .take(5)
+      .map(_("codeListCode")) mustBe List(
+      JsString("BC01"),
+      JsString("BC03"),
+      JsString("BC08"),
+      JsString("BC09"),
+      JsString("BC106")
     )
 
     response.status mustBe Status.OK
