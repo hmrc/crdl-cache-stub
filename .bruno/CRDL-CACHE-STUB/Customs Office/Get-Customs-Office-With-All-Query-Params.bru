@@ -1,0 +1,21 @@
+meta {
+  name: Get-Customs-Office-With-All-Query-Params
+  type: http
+  seq: 3
+}
+
+get {
+  url: http://localhost:7254/crdl-cache/offices?roles=AUT,DEP&referenceNumbers=AD000001&countryCodes=AD
+  body: none
+  auth: inherit
+}
+
+params:query {
+  roles: AUT,DEP
+  referenceNumbers: AD000001
+  countryCodes: AD
+}
+
+headers {
+  Authorization: crdl-cache-stub
+}

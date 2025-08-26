@@ -1,0 +1,21 @@
+meta {
+  name: Get-ExciseProductCode-Data-With-Properties
+  type: http
+  seq: 9
+}
+
+get {
+  url: http://localhost:7254/crdl-cache/lists/BC36?unitOfMeasureCode=2&exciseProductsCategoryCode=E&alcoholicStrengthApplicabilityFlag=false
+  body: none
+  auth: none
+}
+
+params:query {
+  unitOfMeasureCode: 2
+  exciseProductsCategoryCode: E
+  alcoholicStrengthApplicabilityFlag: false
+}
+
+headers {
+  Authorization: crdl-cache-stub
+}
