@@ -1,0 +1,15 @@
+meta {
+  name: Get-CountryCode-Data
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://localhost:7254/crdl-cache/lists/BC08
+  body: none
+  auth: none
+}
+
+headers {
+  Authorization: crdl-cache-stub
+}

@@ -1,0 +1,30 @@
+meta {
+  name: Get-PackagingType-with-keys-And-Properties
+  type: http
+  seq: 7
+}
+
+get {
+  url: http://localhost:7254/crdl-cache/lists/BC17?keys=1A,1B&countableFlag=true
+  body: json
+  auth: none
+}
+
+params:query {
+  keys: 1A,1B
+  countableFlag: true
+}
+
+headers {
+  Authorization: crdl-cache-stub
+}
+
+body:json {
+  {
+    "keys": ["1A","1B"],
+    "properties": {
+      "countableFlag": true
+    }
+  }
+  
+}
