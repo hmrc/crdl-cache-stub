@@ -7075,6 +7075,2907 @@
     }
   },
   {
+    "codeListCode": "CL008",
+    "key": "YE",
+    "value": "Yemen",
+    "properties": {
+      "geoNomenclatureCode": "653",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS",
+      "tccEntryDate": "19000101",
+      "nctsEntryDate": "19000101",
+      "countryRegimeCode": "OTH"
+    }
+  },
+  {
+    "codeListCode": "CL008",
+    "key": "YT",
+    "value": "Mayotte",
+    "properties": {
+      "geoNomenclatureCode": "377",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS",
+      "tccEntryDate": "19000101",
+      "nctsEntryDate": "19000101",
+      "countryRegimeCode": "EEC"
+    }
+  },
+  {
+    "codeListCode": "CL008",
+    "key": "ZA",
+    "value": "South Africa",
+    "properties": {
+      "geoNomenclatureCode": "388",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS",
+      "tccEntryDate": "19000101",
+      "nctsEntryDate": "19000101",
+      "countryRegimeCode": "OTH"
+    }
+  },
+  {
+    "codeListCode": "CL008",
+    "key": "ZM",
+    "value": "Zambia",
+    "properties": {
+      "geoNomenclatureCode": "378",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS",
+      "tccEntryDate": "19000101",
+      "nctsEntryDate": "19000101",
+      "countryRegimeCode": "OTH"
+    }
+  },
+  {
+    "codeListCode": "CL008",
+    "key": "ZW",
+    "value": "Zimbabwe",
+    "properties": {
+      "geoNomenclatureCode": "382",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS",
+      "tccEntryDate": "19000101",
+      "nctsEntryDate": "19000101",
+      "countryRegimeCode": "OTH"
+    }
+  },
+  {
+    "codeListCode": "CL009",
+    "key": "TR",
+    "value": "Türkiye",
+    "properties": {
+      "geoNomenclatureCode": "052",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS",
+      "tccEntryDate": "19000101",
+      "nctsEntryDate": "19000101",
+      "countryRegimeCode": "TOC"
+    }
+  },
+  {
+    "codeListCode": "CL009",
+    "key": "UA",
+    "value": "Ukraine",
+    "properties": {
+      "geoNomenclatureCode": "072",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS",
+      "tccEntryDate": "20221001",
+      "nctsEntryDate": "20221001",
+      "countryRegimeCode": "TOC"
+    }
+  },
+  {
+    "codeListCode": "CL009",
+    "key": "XI",
+    "value": "United Kingdom (Northern Ireland)",
+    "properties": {
+      "geoNomenclatureCode": "006",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS",
+      "tccEntryDate": "19000101",
+      "nctsEntryDate": "19000101",
+      "countryRegimeCode": "EEC"
+    }
+  },
+  {
+    "codeListCode": "CL009",
+    "key": "XS",
+    "value": "Serbia",
+    "properties": {
+      "geoNomenclatureCode": "094",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS",
+      "tccEntryDate": "20160201",
+      "nctsEntryDate": "20160201",
+      "countryRegimeCode": "TOC"
+    }
+  },
+  {
+    "codeListCode": "CL009",
+    "key": "YT",
+    "value": "Mayotte",
+    "properties": {
+      "geoNomenclatureCode": "377",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS",
+      "tccEntryDate": "19000101",
+      "nctsEntryDate": "19000101",
+      "countryRegimeCode": "EEC"
+    }
+  },
+  {
+    "codeListCode": "CL010",
+    "key": "RO",
+    "value": "Romania",
+    "properties": {
+      "geoNomenclatureCode": "066",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS",
+      "tccEntryDate": "19000101",
+      "nctsEntryDate": "19000101",
+      "countryRegimeCode": "EEC"
+    }
+  },
+  {
+    "codeListCode": "CL010",
+    "key": "SE",
+    "value": "Sweden",
+    "properties": {
+      "geoNomenclatureCode": "030",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS",
+      "tccEntryDate": "19000101",
+      "nctsEntryDate": "19000101",
+      "countryRegimeCode": "EEC"
+    }
+  },
+  {
+    "codeListCode": "CL010",
+    "key": "SI",
+    "value": "Slovenia",
+    "properties": {
+      "geoNomenclatureCode": "091",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS",
+      "tccEntryDate": "19000101",
+      "nctsEntryDate": "19000101",
+      "countryRegimeCode": "EEC"
+    }
+  },
+  {
+    "codeListCode": "CL010",
+    "key": "SK",
+    "value": "Slovakia",
+    "properties": {
+      "geoNomenclatureCode": "063",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS",
+      "tccEntryDate": "19000101",
+      "nctsEntryDate": "19000101",
+      "countryRegimeCode": "EEC"
+    }
+  },
+  {
+    "codeListCode": "CL010",
+    "key": "XI",
+    "value": "United Kingdom (Northern Ireland)",
+    "properties": {
+      "geoNomenclatureCode": "006",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS",
+      "tccEntryDate": "19000101",
+      "nctsEntryDate": "19000101",
+      "countryRegimeCode": "EEC"
+    }
+  },
+  {
+    "codeListCode": "CL010",
+    "key": "YT",
+    "value": "Mayotte",
+    "properties": {
+      "geoNomenclatureCode": "377",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS",
+      "tccEntryDate": "19000101",
+      "nctsEntryDate": "19000101",
+      "countryRegimeCode": "EEC"
+    }
+  },
+  {
+    "codeListCode": "CL017",
+    "key": "ZU",
+    "value": "Intermediate bulk container, flexible",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL017",
+    "key": "ZV",
+    "value": "Intermediate bulk container, metal, other than steel",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL017",
+    "key": "ZW",
+    "value": "Intermediate bulk container, natural wood",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL017",
+    "key": "ZX",
+    "value": "Intermediate bulk container, plywood",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL017",
+    "key": "ZY",
+    "value": "Intermediate bulk container, reconstituted wood",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL017",
+    "key": "ZZ",
+    "value": "Mutually defined",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL019",
+    "key": "1",
+    "value": "The carrier is obliged to deviate from the itinerary prescribed in accordance with Article 298 of UCC/IA Regulation due to circumstances beyond the carrier's control.",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL019",
+    "key": "2",
+    "value": "Seals are broken or tampered within the course of a transport operation for reasons beyond the carrier's control.",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL019",
+    "key": "3",
+    "value": "Under the supervision of the customs authority, goods are transferred from one means of transport to another means of transport.",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL019",
+    "key": "4",
+    "value": "Imminent danger necessitates immediate partial or total unloading of the sealed means of transport.",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL019",
+    "key": "5",
+    "value": "There is an incident which may affect the ability of the Holder of the procedure or the carrier to comply with their obligations.",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL019",
+    "key": "7",
+    "value": "Seals were replaced, added or removed by the customs authorities.",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL019",
+    "key": "8",
+    "value": "Without the supervision of the customs authority, goods were transferred from one means of transport to another means of transport, in accordance with Article 305(3) of UCC/IA.",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL019",
+    "key": "NCTS",
+    "value": "Any of the elements constituting a single means of transport as referred to in Article 296(2) UCC/IA is changed.",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL030",
+    "key": "53",
+    "value": "Invalid character(s)",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL030",
+    "key": "54",
+    "value": "Value is lower than the allowed lowest limit (Minimum Inclusive)",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL030",
+    "key": "55",
+    "value": "Value is greater than the allowed upper limit (Maximum Inclusive)",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL030",
+    "key": "56",
+    "value": "Value is lower than or equal to the allowed lowest limit (Minimum Exclusive)",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL030",
+    "key": "57",
+    "value": "Value is greater than or equal to the allowed upper limit (Maximum Exclusive)",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL038",
+    "key": "U",
+    "value": "UN/LOCODE",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL038",
+    "key": "W",
+    "value": "GPS coordinates",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL038",
+    "key": "Z",
+    "value": "Free text",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL042",
+    "key": "A",
+    "value": "for a standard customs declaration (under Article 162 of the Code)",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL042",
+    "key": "D",
+    "value": "For lodging a standard customs declaration (such as referred to under code A) in accordance with Article 171 of the Code.",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL048",
+    "key": "MKD",
+    "value": "Macedonian Denar",
+    "properties": {
+      "rateValue": "61.495",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL048",
+    "key": "NOK",
+    "value": "Norwegian Krone",
+    "properties": {
+      "rateValue": "11.731",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL048",
+    "key": "PLN",
+    "value": "Polish zloty",
+    "properties": {
+      "rateValue": "4.2853",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL048",
+    "key": "RON",
+    "value": "Romanian leu",
+    "properties": {
+      "rateValue": "4.9759",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL048",
+    "key": "RSD",
+    "value": "Serbian dinar",
+    "properties": {
+      "rateValue": "117.04",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL048",
+    "key": "SEK",
+    "value": "Swedish Krona",
+    "properties": {
+      "rateValue": "11.315",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL048",
+    "key": "TRY",
+    "value": "Turkish lira",
+    "properties": {
+      "rateValue": "37.957",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL048",
+    "key": "UAH",
+    "value": "Ukrainian hryvnia",
+    "properties": {
+      "rateValue": "46.154",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL056",
+    "key": "SDE",
+    "value": "Customs authority responsible for granting the authorisation for the regular use of a simplified declaration",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL056",
+    "key": "SSE",
+    "value": "Customs authority responsible for granting the authorisation for the use of seals of a special type",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL056",
+    "key": "TEA",
+    "value": "Customs authority responsible for granting the authorisation for the use of the temporary admission procedure",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL056",
+    "key": "TRA",
+    "value": "Office of Transit",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL056",
+    "key": "TRD",
+    "value": "Customs authority responsible for granting the authorisation to use a transit declaration with a reduced dataset",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL056",
+    "key": "TST",
+    "value": "Customs authority responsible for granting the authorisation for the operation of temporary storage facilities",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL056",
+    "key": "TXT",
+    "value": "Office of Exit for Transit",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL076",
+    "key": "0",
+    "value": "Guarantee waiver",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL076",
+    "key": "1",
+    "value": "Comprehensive guarantee",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL076",
+    "key": "2",
+    "value": "Individual guarantee in the form of an undertaking by a guarantor",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL076",
+    "key": "3",
+    "value": "Individual guarantee in cash or other means of payment recognised by the customs authorities as being equivalent to a cash deposit, made in euro or in the currency of the Member State in which the guarantee is registered.",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL076",
+    "key": "4",
+    "value": "Individual guarantee in the form of vouchers",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL076",
+    "key": "5",
+    "value": "Guarantee waiver where the amount of import or export duty to be secured does not exceed the statistical value threshold for declarations laid down in accordance with Article 3(4) of Regulation (EC) No 471/2009",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL076",
+    "key": "9",
+    "value": "Individual guarantee with multiple usage (for CTC only)",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL094",
+    "key": "2",
+    "value": "Representative - direct representation (within the meaning of Article 18(1) of the Code)",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL112",
+    "key": "UA",
+    "value": "Ukraine",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL116",
+    "key": "A",
+    "value": "Payment in cash",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL116",
+    "key": "B",
+    "value": "Payment by credit card",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL116",
+    "key": "C",
+    "value": "Payment by cheque",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL116",
+    "key": "D",
+    "value": "Other",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL116",
+    "key": "H",
+    "value": "Electronic credit transfer",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL116",
+    "key": "Y",
+    "value": "Account holder with carrier",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL116",
+    "key": "Z",
+    "value": "Not pre-paid",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL147",
+    "key": "YT",
+    "value": "Mayotte",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL165",
+    "key": "YE",
+    "value": "Yemen",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL165",
+    "key": "ZA",
+    "value": "South Africa",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL165",
+    "key": "ZM",
+    "value": "Zambia",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL165",
+    "key": "ZW",
+    "value": "Zimbabwe",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL167",
+    "key": "LU",
+    "value": "Luxembourg",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL167",
+    "key": "MD",
+    "value": "Moldova, Republic of",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL167",
+    "key": "ME",
+    "value": "Montenegro",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL167",
+    "key": "MT",
+    "value": "Malta",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL167",
+    "key": "NO",
+    "value": "Norway",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL167",
+    "key": "PT",
+    "value": "Portugal",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL167",
+    "key": "SI",
+    "value": "Slovenia",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL167",
+    "key": "SM",
+    "value": "San Marino",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL178",
+    "key": "C612",
+    "value": "Internal Community transit declaration, T2F",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL178",
+    "key": "C620",
+    "value": "T2LF document",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL178",
+    "key": "N822",
+    "value": "Internal Community transit declaration T2",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL178",
+    "key": "N825",
+    "value": "T2L document",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL180",
+    "key": "93",
+    "value": "Invalid MRN",
+    "properties": {
+      "remark": "The structure of the MRN is not conform specifications.",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL181",
+    "key": "VG",
+    "value": "Bulk, gas (at 1031 mbar and 15°C)",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL181",
+    "key": "VL",
+    "value": "Bulk, liquid",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL181",
+    "key": "VO",
+    "value": "Bulk, solid, large particles (\"nodules\")",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL181",
+    "key": "VQ",
+    "value": "Bulk, liquefied gas (at abnormal temperature/pressure)",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL181",
+    "key": "VR",
+    "value": "Bulk, solid, granular particles (\"grains\")",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL181",
+    "key": "VS",
+    "value": "Bulk, scrap metal",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL181",
+    "key": "VY",
+    "value": "Bulk, solid, fine particles (\"powders\")",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL182",
+    "key": "NE",
+    "value": "Unpacked or unpackaged",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL182",
+    "key": "NF",
+    "value": "Unpacked or unpackaged, single unit",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL182",
+    "key": "NG",
+    "value": "Unpacked or unpackaged, multiple units",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL190",
+    "key": "IE",
+    "value": "Ireland",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL190",
+    "key": "LU",
+    "value": "Luxembourg",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL190",
+    "key": "NL",
+    "value": "Netherlands",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL198",
+    "key": "IE",
+    "value": "Ireland",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL198",
+    "key": "LU",
+    "value": "Luxembourg",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL213",
+    "key": "N952",
+    "value": "TIR Carnet",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL213",
+    "key": "N954",
+    "value": "Movement certificate EUR.1",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL213",
+    "key": "N955",
+    "value": "ATA carnet",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL213",
+    "key": "NZZZ",
+    "value": "Document equivalent to ‘ZZZ’ defined in Commission Delegated Regulation (EU) 2016/341 (Appendix D2: Additional codes for the computerised transit system)",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL213",
+    "key": "X072",
+    "value": "Transit Licence for dual Use Items - referred to in Article 7 of the Regulation (EU) 2021/821 of the European Parliament and of the Council",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL214",
+    "key": "N955",
+    "value": "ATA carnet",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL214",
+    "key": "NCLE",
+    "value": "Reference/date of entry in the declarant’s records",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL214",
+    "key": "NMNS",
+    "value": "Cargo manifest — simplified procedure",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL214",
+    "key": "NMRN",
+    "value": "Declaration/notification MRN",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL215",
+    "key": "Y930",
+    "value": "The declared goods are not concerned by Commission Implementing Regulation (EU) 2021/632",
+    "properties": {
+      "transportDocument": "0",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL215",
+    "key": "Y931",
+    "value": "Goods benefitting from derogation to veterinary controls according to Article 3 of Commission Delegated Regulation (EU) 2021/630",
+    "properties": {
+      "transportDocument": "0",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL215",
+    "key": "Y932",
+    "value": "Goods benefitting from a derogation to CITES controls according to Article 7(3) of Council Regulation (EC) No 338/97",
+    "properties": {
+      "transportDocument": "0",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL215",
+    "key": "Y934",
+    "value": "Product not subjected to the provisions of Regulation (EU) No 258/2012 for export of firearms, their parts and components and ammunition",
+    "properties": {
+      "transportDocument": "0",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL215",
+    "key": "Y937",
+    "value": "The declared goods are not concerned by Commission Implementing Regulation (EU) 2019/1793",
+    "properties": {
+      "transportDocument": "0",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL215",
+    "key": "Y942",
+    "value": "The declared goods are not concerned by Commission Implementing Regulation (EU) 2016/1141",
+    "properties": {
+      "transportDocument": "0",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL215",
+    "key": "Y950",
+    "value": "Goods other than pre-charged equipment with hydrofluorocarbons, as defined in article 14.1 of Regulation (EU) No 517/2014",
+    "properties": {
+      "transportDocument": "0",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL215",
+    "key": "Y951",
+    "value": "Exemption from the reduction of the quantity of hydrofluorocarbons placed on the market by virtue of Article 16.2 (a), (b), (d), (e) of Regulation (EU) 2024/573",
+    "properties": {
+      "transportDocument": "0",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL217",
+    "key": "0",
+    "value": "Not used for safety and security purposes",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL217",
+    "key": "1",
+    "value": "ENS",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL217",
+    "key": "2",
+    "value": "EXS",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL217",
+    "key": "3",
+    "value": "ENS & EXS",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL218",
+    "key": "1",
+    "value": "Maritime Transport",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL218",
+    "key": "2",
+    "value": "Rail Transport",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL218",
+    "key": "3",
+    "value": "Road transport",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL218",
+    "key": "4",
+    "value": "Air transport",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL218",
+    "key": "5",
+    "value": "Mail (Active mode of transport unknown)",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL218",
+    "key": "7",
+    "value": "Fixed transport installations",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL218",
+    "key": "8",
+    "value": "Inland waterway transport",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL218",
+    "key": "9",
+    "value": "Mode unknown (Own propulsion)",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL219",
+    "key": "10",
+    "value": "IMO Ship Identification Number",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL219",
+    "key": "11",
+    "value": "Name of the sea-going vessel",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL219",
+    "key": "21",
+    "value": "Train Number",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL219",
+    "key": "30",
+    "value": "Registration Number of the Road Vehicle",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL219",
+    "key": "40",
+    "value": "IATA flight number",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL219",
+    "key": "41",
+    "value": "Registration Number of the Aircraft",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL219",
+    "key": "80",
+    "value": "European Vessel Identification Number (ENI Code)",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL219",
+    "key": "81",
+    "value": "Name of the inland waterways vessel",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL226",
+    "key": "12",
+    "value": "Message with functional error(s) - Violation of Rules & Conditions",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL226",
+    "key": "4",
+    "value": "Other reasons",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL226",
+    "key": "7",
+    "value": "Guarantee not valid for this customs territory",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL228",
+    "key": "N830",
+    "value": "Goods declaration for exportation",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL229",
+    "key": "0",
+    "value": "Guarantee waiver",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL229",
+    "key": "1",
+    "value": "Comprehensive guarantee",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL229",
+    "key": "2",
+    "value": "Individual guarantee in the form of an undertaking by a guarantor",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL229",
+    "key": "3",
+    "value": "Individual guarantee in cash or other means of payment recognised by the customs authorities as being equivalent to a cash deposit, made in euro or in the currency of the Member State in which the guarantee is registered.",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL229",
+    "key": "4",
+    "value": "Individual guarantee in the form of vouchers",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL229",
+    "key": "5",
+    "value": "Guarantee waiver where the amount of import or export duty to be secured does not exceed the statistical value threshold for declarations laid down in accordance with Article 3(4) of Regulation (EC) No 471/2009",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL229",
+    "key": "8",
+    "value": "Guarantee not required for certain public bodies",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL229",
+    "key": "9",
+    "value": "Individual guarantee with multiple usage (for CTC only)",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL229",
+    "key": "A",
+    "value": "Guarantee waiver by agreement",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL229",
+    "key": "R",
+    "value": "Guarantee not required for goods carried on the Rhine, the Rhine waterways, the Danube or the Danube waterways (Article 89(8)(a) of the Code)",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL230",
+    "key": "0",
+    "value": "Guarantee waiver",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL230",
+    "key": "1",
+    "value": "Comprehensive guarantee",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL230",
+    "key": "2",
+    "value": "Individual guarantee in the form of an undertaking by a guarantor",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL230",
+    "key": "3",
+    "value": "Individual guarantee in cash or other means of payment recognised by the customs authorities as being equivalent to a cash deposit, made in euro or in the currency of the Member State in which the guarantee is registered.",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL230",
+    "key": "4",
+    "value": "Individual guarantee in the form of vouchers",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL230",
+    "key": "5",
+    "value": "Guarantee waiver where the amount of import or export duty to be secured does not exceed the statistical value threshold for declarations laid down in accordance with Article 3(4) of Regulation (EC) No 471/2009",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL230",
+    "key": "8",
+    "value": "Guarantee not required for certain public bodies",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL230",
+    "key": "A",
+    "value": "Guarantee waiver by agreement",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL230",
+    "key": "R",
+    "value": "Guarantee not required for goods carried on the Rhine, the Rhine waterways, the Danube or the Danube waterways (Article 89(8)(a) of the Code)",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL231",
+    "key": "T",
+    "value": "Mixed consignments comprising both goods to be placed under external Union transit procedure and goods which are to be placed under the internal Union transit procedure.",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL231",
+    "key": "T1",
+    "value": "Goods not having the customs status of Union goods, which are placed under the common transit procedure.",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL231",
+    "key": "T2",
+    "value": "Goods having the customs status of Union goods, which are placed under the common transit procedure",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL231",
+    "key": "T2F",
+    "value": "Goods required to move under the internal Union transit procedure, in accordance with Article 188 of Delegated Regulation (EU) 2015/2446",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL231",
+    "key": "T2SM",
+    "value": "Goods placed under the internal Union transit procedure, in application of Article 2 of Decision 4/92/EC of the EEC-San Marino Cooperation Committee of 22 December 1992",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL231",
+    "key": "TIR",
+    "value": "TIR carnet",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL232",
+    "key": "T1",
+    "value": "Goods not having the customs status of Union goods, which are placed under the common transit procedure.",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL232",
+    "key": "T2",
+    "value": "Goods having the customs status of Union goods, which are placed under the common transit procedure",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL232",
+    "key": "T2F",
+    "value": "Goods required to move under the internal Union transit procedure, in accordance with Article 188 of Delegated Regulation (EU) 2015/2446",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL232",
+    "key": "T2SM",
+    "value": "Goods placed under the internal Union transit procedure, in application of Article 2 of Decision 4/92/EC of the EEC-San Marino Cooperation Committee of 22 December 1992",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL234",
+    "key": "C651",
+    "value": "Electronic administrative document (e-AD), as referred to in Article 3 of Reg. (EU) 2022/1636",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL234",
+    "key": "C658",
+    "value": "Fallback Document for movements of excise goods under suspension of excise duty, as referred to in Article 9(1) of Commission Delegated Regulation (EU) 2022/1636",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL235",
+    "key": "C521",
+    "value": "ACR - Authorisation for the status of authorised consignor for Union transit (Column 9b, Annex A of Delegated Regulation (EU) 2015/2446)",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL235",
+    "key": "C523",
+    "value": "SSE - Authorisation for the use of seals of a special type (Column 9d, Annex A of Delegated Regulation (EU) 2015/2446)",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL235",
+    "key": "C524",
+    "value": "TRD - Authorisation to use transit declaration with a reduced dataset (Column 9e, Annex A of Delegated Regulation (EU) 2015/2446)",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL236",
+    "key": "C520",
+    "value": "ACT - Authorisation for the status of authorised consignee for TIR procedure (Column 9a, Annex A of Delegated Regulation (EU) 2015/2446)",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL236",
+    "key": "C522",
+    "value": "ACE - Authorisation for the status of authorised consignee for Union transit (Column 9c, Annex A of Delegated Regulation (EU) 2015/2446)",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL239",
+    "key": "00200",
+    "value": "Several occurrences of documents and parties",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL239",
+    "key": "00700",
+    "value": "Discharge of inward processing. IP’ and the relevant authorisation number or INF number",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL239",
+    "key": "00800",
+    "value": "Discharge of inward processing (specific commercial policy measures)",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL239",
+    "key": "00900",
+    "value": "Discharge of temporary admission. ‘TA’ and the relevant authorisation number",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL239",
+    "key": "10600",
+    "value": "Situations where negotiable bills of lading that are \"to order blank endorsed\" are concerned, in the case of entry summary declarations, where the consignee details are unknown. Consignee unknown",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL239",
+    "key": "10900",
+    "value": "ENS lodged together with customs declaration for low value consignment",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL239",
+    "key": "20100",
+    "value": "Export from one EFTA country subject to restriction or export from the Union subject to restriction",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL239",
+    "key": "20200",
+    "value": "Export from one EFTA country subject to duties or export from the Union subject to duties",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL239",
+    "key": "20300",
+    "value": "Export",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL239",
+    "key": "30600",
+    "value": "In EXS, where negotiable bills of lading 'to order blank endorsed' are concerned and the consignee particulars are unknown.",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL248",
+    "key": "YT",
+    "value": "Mayotte",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL248",
+    "key": "ZA",
+    "value": "South Africa",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL248",
+    "key": "ZM",
+    "value": "Zambia",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL248",
+    "key": "ZW",
+    "value": "Zimbabwe",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL251",
+    "key": "J",
+    "value": "Guarantee not required for the journey between customs office of departure and customs office of transit - Article 10(2)(b) of the Convention of 20 May 1987 on a common transit procedure",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL251",
+    "key": "R",
+    "value": "Guarantee not required for goods carried on the Rhine, the Rhine waterways, the Danube or the Danube waterways (Article 89(8)(a) of the Code)",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL252",
+    "key": "G12",
+    "value": "'Declared commodity code' and 'Commodity code' in guarantee do not match",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL252",
+    "key": "G13",
+    "value": "The 'GRN' and the 'Guarantee type' do not match",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL286",
+    "key": "0",
+    "value": "Guarantee waiver",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL286",
+    "key": "1",
+    "value": "Comprehensive guarantee",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL286",
+    "key": "2",
+    "value": "Individual guarantee in the form of an undertaking by a guarantor",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL286",
+    "key": "4",
+    "value": "Individual guarantee in the form of vouchers",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL286",
+    "key": "9",
+    "value": "Individual guarantee with multiple usage (for CTC only)",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL296",
+    "key": "A20",
+    "value": "Express consignments in the context of exit summary declarations",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL296",
+    "key": "F34",
+    "value": "Express consignments – Complete dataset – Road mode of transport",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL296",
+    "key": "F50",
+    "value": "Road mode of transport",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL296",
+    "key": "F51",
+    "value": "Rail mode of transport",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL326",
+    "key": "T",
+    "value": "Postal code",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL326",
+    "key": "U",
+    "value": "UN/LOCODE",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL326",
+    "key": "V",
+    "value": "Customs office identifier",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL326",
+    "key": "W",
+    "value": "GPS coordinates",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL326",
+    "key": "X",
+    "value": "EORI number",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL326",
+    "key": "Y",
+    "value": "Authorisation number",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL326",
+    "key": "Z",
+    "value": "Free text",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL347",
+    "key": "A",
+    "value": "Designated location",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL347",
+    "key": "B",
+    "value": "Authorised place",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL347",
+    "key": "C",
+    "value": "Approved place",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL347",
+    "key": "D",
+    "value": "Other",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL349",
+    "key": "TNEJ",
+    "value": "Tonne of fuel content (usually in form of tallow, stearin, paraffin wax or other waxes, including the wick)",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL349",
+    "key": "TNEK",
+    "value": "Tonne of bioethanol content",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL349",
+    "key": "TNEM",
+    "value": "Tonne net of dry matter",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL349",
+    "key": "TNER",
+    "value": "Tonne of the standard quality",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL349",
+    "key": "TNEZ",
+    "value": "Tonne per 1% by weight of sucrose",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL349",
+    "key": "WAT",
+    "value": "Number of Watt",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL380",
+    "key": "Y951",
+    "value": "Exemption from the reduction of the quantity of hydrofluorocarbons placed on the market by virtue of Article 16.2 (a), (b), (d), (e) of Regulation (EU) 2024/573",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL437",
+    "key": "96",
+    "value": "Incorrect entity reference",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL437",
+    "key": "97",
+    "value": "Not found",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL437",
+    "key": "98",
+    "value": "Unknown reference",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL437",
+    "key": "99",
+    "value": "Update not allowed",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL560",
+    "key": "013",
+    "value": "Amendment rejection",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL560",
+    "key": "014",
+    "value": "Invalidation rejection",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL560",
+    "key": "015",
+    "value": "Declaration rejection",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL560",
+    "key": "054",
+    "value": "Release request rejection",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL560",
+    "key": "117",
+    "value": "Presentation notification at Office of Transit rejection",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL560",
+    "key": "141",
+    "value": "Rejection of Information about non-arrived movement",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL560",
+    "key": "170",
+    "value": "Presentation notification for the pre-lodged declaration rejection",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL560",
+    "key": "A13",
+    "value": "Combined amendment rejection",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL560",
+    "key": "A15",
+    "value": "Combined declaration rejection",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL560",
+    "key": "A71",
+    "value": "Referral response rejection",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL580",
+    "key": "117",
+    "value": "Rejection of CC117D - PRESENTATION NOTIFICATION AT OFFICE OF TRANSIT (E_TRA_PRE_NOT)",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL581",
+    "key": "1",
+    "value": "MRN unknown",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL581",
+    "key": "12",
+    "value": "Message with functional error(s) - Violation of Rules & Conditions",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL581",
+    "key": "13",
+    "value": "Customs Office does not have the role 'EXIT'",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL581",
+    "key": "2",
+    "value": "Declaration invalidated",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL581",
+    "key": "3",
+    "value": "No diversion: binding itinerary and no incident notified",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL581",
+    "key": "4",
+    "value": "Other reasons",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL581",
+    "key": "7",
+    "value": "Guarantee not valid for this customs territory",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL581",
+    "key": "NCTS",
+    "value": "Not applicable (NCTS/TIR, AD, SM)",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL704",
+    "key": "CS",
+    "value": "Consolidator",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL704",
+    "key": "FW",
+    "value": "Freight Forwarder",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL704",
+    "key": "MF",
+    "value": "Manufacturer",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL704",
+    "key": "WH",
+    "value": "Warehouse Keeper",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL716",
+    "key": "10",
+    "value": "Documentary controls",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL716",
+    "key": "20",
+    "value": "Nuclear/radioactive material check",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL716",
+    "key": "30",
+    "value": "Non-intrusive inspection",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL716",
+    "key": "40",
+    "value": "Physical controls",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL716",
+    "key": "41",
+    "value": "Identification of consignment and seals",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL716",
+    "key": "42",
+    "value": "Intrusive inspection",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL716",
+    "key": "43",
+    "value": "Quantity control / Partial or total",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL716",
+    "key": "44",
+    "value": "Nature and characteristics of the goods",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL716",
+    "key": "45",
+    "value": "Sampling",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL716",
+    "key": "50",
+    "value": "Other",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL750",
+    "key": "10",
+    "value": "IMO Ship Identification Number",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL750",
+    "key": "11",
+    "value": "Name of the sea-going vessel",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL750",
+    "key": "20",
+    "value": "Wagon Number",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL750",
+    "key": "21",
+    "value": "Train Number",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL750",
+    "key": "30",
+    "value": "Registration Number of the Road Vehicle",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL750",
+    "key": "31",
+    "value": "Registration Number of the Road Trailer",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL750",
+    "key": "40",
+    "value": "IATA flight number",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL750",
+    "key": "41",
+    "value": "Registration Number of the Aircraft",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL750",
+    "key": "80",
+    "value": "European Vessel Identification Number (ENI Code)",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL750",
+    "key": "81",
+    "value": "Name of the inland waterways vessel",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL752",
+    "key": "R202",
+    "value": "Documents cannot be provided",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL752",
+    "key": "R203",
+    "value": "Amendment is not possible",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL752",
+    "key": "S00",
+    "value": "HRCM screening not performed",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL752",
+    "key": "S01",
+    "value": "HRCM screening performed",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL752",
+    "key": "S10",
+    "value": "Provide information whether HRCM screening has taken place",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL754",
+    "key": "N740",
+    "value": "Air waybill",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL754",
+    "key": "N741",
+    "value": "Master airwaybill",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL754",
+    "key": "N750",
+    "value": "movement by post including parcel post",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
+    "codeListCode": "CL754",
+    "key": "N760",
+    "value": "Multimodal/combined transport document",
+    "properties": {
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS"
+    }
+  },
+  {
     "codeListCode": "BC36",
     "key": "E200",
     "value": "Vegetable and animal oils Products falling within CN codes 1507 to 1518, if these are intended for use as heating fuel or motor fuel (Article 20(1)(a))",
