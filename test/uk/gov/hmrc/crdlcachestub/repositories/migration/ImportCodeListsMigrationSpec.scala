@@ -77,7 +77,7 @@ class ImportCodeListsMigrationSpec
 
     migration.migrationComplete.map { result =>
       verify(repository, times(1)).deleteEntries(eqTo(clientSession))
-      verify(repository, times(19)).saveEntries(eqTo(clientSession), any())
+      verify(repository, times(138)).saveEntries(eqTo(clientSession), any())
       verify(clientSession, times(1)).commitTransaction()
       succeed
     }
