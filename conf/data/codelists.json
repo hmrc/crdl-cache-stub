@@ -135722,6 +135722,78 @@
     }
   },
   {
+    "codeListCode": "CL244",
+    "key": "GBBEL",
+    "value": "English",
+    "properties": {
+      "coordinates": "5459N 00555W",
+      "name": "Belfast",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS",
+      "date": "0201",
+      "status": "AF",
+      "function": "1--4-6--"
+    }
+  },
+    {
+    "codeListCode": "CL244",
+    "key": "DEAAL",
+    "value": "English",
+    "properties": {
+      "name": "Aalen",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS",
+      "date": "0201",
+      "status": "AF",
+      "function": "-23-----"
+    }
+  },
+      {
+    "codeListCode": "CL244",
+    "key": "GBDVR",
+    "value": "English",
+    "properties": {
+      "name": "Dover",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS",
+      "date": "0201",
+      "status": "AF",
+      "function": "1---5---"
+    }
+  },
+        {
+    "codeListCode": "CL244",
+    "key": "DEBER",
+    "value": "English",
+    "properties": {
+          "coordinates": "5231N 01323E",
+      "name": "Berlin",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS",
+      "date": "0201",
+      "status": "AF",
+      "function": "12345---"
+    }
+  },
+        {
+    "codeListCode": "CL244",
+    "key": "ESMAD",
+    "value": "English",
+    "properties": {
+      "name": "Madrid",
+      "state": "valid",
+      "phase": "P6",
+      "domain": "NCTS",
+      "date": "0201",
+      "status": "AF",
+      "function": "-2345---"
+    }
+  },
+  {
     "codeListCode": "CL248",
     "key": "AD",
     "value": "Andorra",
