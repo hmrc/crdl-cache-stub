@@ -13,7 +13,7 @@ For detailed usage instructions, please see the [API Documentation](https://redo
 
 ### Prerequisites
 
-To ensure that you have all the prerequisites for running this service, follow the Developer setup instructions in the MDTP Handbook.
+To ensure that you have all the prerequisites for running this service, follow the Developer setup instructions in the [MDTP Handbook](https://docs.tax.service.gov.uk/mdtp-handbook/documentation/developer-set-up/index.html#developer-set-up).
 
 This should ensure that you have the prerequisites for the service installed:
 
@@ -32,7 +32,7 @@ $ sm2 --start CRDL_CACHE_STUB
 
 Or from the repository directory with sbt:
 
-```
+```bash
 sbt run
 ```
 The service runs on port 7254 by default.
@@ -67,10 +67,46 @@ mongosh --file scripts/exportLastUpdated.js
 
 This will overwrite the stub data files in the [conf/data](./conf/data) folder.
 
+### Scalafmt
+
+Check all project files are formatted as expected as follows:
+
+```bash
+sbt scalafmtCheckAll scalafmtCheck
+```
+
+Format `*.sbt` and `project/*.scala` files as follows:
+
+```bash
+sbt scalafmtSbt
+```
+
+Format all project files as follows:
+
+```bash
+sbt scalafmtAll
+```
+
+### Tests
+
+Run all unit tests with command:
+
+```bash
+sbt test
+```
+
+Run all integration tests command:
+
+```bash
+sbt it/test
+```
+
 ### All tests and checks
 This is an sbt command alias specific to this project. It will run a scala format
 check, run unit tests, run integration tests and produce a coverage report:
-> `sbt runAllChecks`
+```bash
+sbt runAllChecks`
+```
 
 ### License
 
